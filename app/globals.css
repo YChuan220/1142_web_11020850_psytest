@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+/* 全站背景：public/bg_day.svg（勿用負 z-index，會被 body 底色蓋住） */
+.bg-day {
+  background-color: #b7e8ff;
+  background-image: url('/bg_day.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.bg-night {
+  background-color: #1e1a42;
+  background-image: url('/bg_night.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* 防止長按圖片時觸發瀏覽器預設選取/複製選單（mobile） */
+img {
+  -webkit-touch-callout: none;
+  user-select: none;
+}
+
+/* 觸控裝置：按鈕按下效果 */
+@media (hover: none) {
+  button:active {
+    opacity: 0.75;
+  }
+}
