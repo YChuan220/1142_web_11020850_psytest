@@ -20,16 +20,6 @@ function getBgSrc(step) {
   return `/bg_question_${step + 1}.svg`;
 }
 
-// 每題文字色系
-const themeText = {
-  blue:     { scenario: 'text-white/95' },
-  purple:   { scenario: 'text-white/95' },
-  yellow:   { scenario: 'text-gray-800' },
-  pink:     { scenario: 'text-gray-800' },
-  bluegray: { scenario: 'text-white/95' },
-  dark:     { scenario: 'text-gray-100' },
-};
-
 export default function QuestionPage() {
   const router = useRouter();
   const { currentStep, addScore } = useQuizStore();
@@ -72,7 +62,6 @@ export default function QuestionPage() {
   if (currentStep >= questions.length) return null;
 
   const q  = questions[currentStep];
-  const tc = themeText[q.theme] ?? themeText.blue;
 
   const handleSelect = (optId) => {
     if (selectedId !== null) return; // 防止快速重複點擊
@@ -92,7 +81,7 @@ export default function QuestionPage() {
       />
 
       {/* ── 半透明遮罩（提升文字可讀性） ── */}
-      <div className="absolute inset-0 bg-black/16 z-[1]" />
+      <div className="absolute inset-0 bg-black/25 z-[1]" />
 
       {/* ── 內容 overlay ── */}
       <div className="relative z-10 flex flex-col h-full px-5 pt-6 pb-5">
@@ -108,7 +97,7 @@ export default function QuestionPage() {
             情境描述（H1）
             ═══════════ */}
         <div className="mb-6 px-1">
-          <h2 className={`text-center text-xl font-bold leading-relaxed drop-shadow-lg ${tc.scenario}`}>
+          <h2 className="text-center text-xl font-bold leading-relaxed drop-shadow-lg text-white">
             {q.scenario}
           </h2>
         </div>

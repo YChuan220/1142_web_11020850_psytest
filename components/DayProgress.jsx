@@ -22,7 +22,7 @@ export default function DayProgress({ currentStep, total }) {
   const pct = total <= 1 ? 0 : (currentStep / (total - 1)) * 100;
 
   return (
-    <div className="w-full px-1 pt-2 pb-1">
+    <div className="w-full max-w-xs mx-auto px-1 pt-2 pb-1">
       {/* ── 軌道（節點收於內部） ── */}
       <div className="relative h-9 rounded-full bg-white/20 overflow-hidden">
         {/* 已完成段落 */}
@@ -31,14 +31,14 @@ export default function DayProgress({ currentStep, total }) {
           style={{ width: `${pct}%` }}
         />
 
-        {/* 三個時段節點 icon */}
+        {/* 三個時段節點 icon（固定寬度方塊 → 字形水平置中） */}
         <div className="absolute inset-0 flex items-center justify-between px-3.5">
           {NODES.map((node, i) => {
             const reached = currentStep >= node.step;
             return (
               <span
                 key={i}
-                className={`text-lg leading-none transition-all duration-300 ${
+                className={`flex w-6 items-center justify-center text-lg leading-none transition-all duration-300 ${
                   reached
                     ? 'opacity-100 scale-110 drop-shadow'
                     : 'opacity-40 scale-90 grayscale'
