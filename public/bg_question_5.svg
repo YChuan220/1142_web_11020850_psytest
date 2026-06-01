@@ -23,9 +23,6 @@
 <rect x="291.69" y="216.856" width="38.3069" height="45.2718" transform="rotate(-29.3814 291.69 216.856)" fill="url(#paint14_linear_2026_1437)"/>
 <circle cx="325.014" cy="200.091" r="14.9745" transform="rotate(-29.3814 325.014 200.091)" fill="url(#paint15_linear_2026_1437)"/>
 <rect width="393" height="852" fill="black" fill-opacity="0.21"/>
-<line x1="41" y1="52" x2="351" y2="52" stroke="white" stroke-width="2"/>
-<line x1="41" y1="285" x2="351" y2="285" stroke="white" stroke-width="2"/>
-<line x1="41" y1="798" x2="351" y2="798" stroke="white" stroke-width="2"/>
 </g>
 <defs>
 <linearGradient id="paint0_linear_2026_1437" x1="196.5" y1="0" x2="196.5" y2="422" gradientUnits="userSpaceOnUse">

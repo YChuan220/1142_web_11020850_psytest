@@ -13,8 +13,7 @@ export default function StartButton({ onClick, label = '開始測驗' }) {
     <button
       onClick={onClick}
       className="
-        px-10 py-3
-        rounded-full
+        px-24 py-2 rounded-[40px]
         bg-gradient-to-r from-cyan-200 to-blue-200
         text-blue-600 font-semibold text-lg tracking-widest
         border border-blue-200

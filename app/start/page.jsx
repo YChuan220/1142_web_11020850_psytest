@@ -36,7 +36,7 @@ export default function StartPage() {
 
         {/* 標題區：左上 */}
         <div className="pt-14 pl-8 pr-6">
-          <h1 className="text-4xl font-black text-gray-800 leading-snug tracking-tight">
+          <h1 className="text-6xl font-black text-gray-800 leading-snug tracking-tight">
             你是<br />健康人<br />嗎？
           </h1>
         </div>

@@ -16,9 +16,6 @@
 <path d="M37.5579 779.016L73.3119 737.404H39.1739V722.456H91.6939V738.212L56.5459 779.824H92.0979V794.772H37.5579V779.016Z" fill="url(#paint6_linear_2026_1347)"/>
 <path d="M99.9127 776.52L141.331 728.316H101.785V711H162.625V729.252L121.909 777.456H163.093V794.772H99.9127V776.52Z" fill="url(#paint7_linear_2026_1347)"/>
 <rect width="393" height="852" fill="black" fill-opacity="0.21"/>
-<line x1="41" y1="52" x2="351" y2="52" stroke="white" stroke-width="2"/>
-<line x1="41" y1="285" x2="351" y2="285" stroke="white" stroke-width="2"/>
-<line x1="41" y1="798" x2="351" y2="798" stroke="white" stroke-width="2"/>
 </g>
 <defs>
 <linearGradient id="paint0_linear_2026_1347" x1="196.5" y1="0" x2="196.5" y2="286" gradientUnits="userSpaceOnUse">

@@ -35,7 +35,7 @@ export default function PreparePage() {
 
       {/* ── 背景 SVG ── */}
       <Image
-        src="/bg_prepare.svg"
+        src="/bg_question_7.svg"
         alt=""
         fill
         className="object-cover object-center"
@@ -57,7 +57,7 @@ export default function PreparePage() {
         </div>
 
         {/* 提示文字 */}
-        <p className="text-gray-400 text-sm tracking-widest animate-pulse">
+        <p className="text-gray-400 text-lg tracking-widest animate-pulse">
           正在分析你的結果...
         </p>
 

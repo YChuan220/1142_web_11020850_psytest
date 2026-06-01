@@ -154,7 +154,7 @@ export const questions = [
       },
       {
         id: 'B',
-        text: '#:&#@\\)?*}%-><-!%[/(.{',
+        text: '#:&#@\\)?*}%-><-!%[/(.{(意識不清)',
         score: 0,
         style: 'cyan',
       },

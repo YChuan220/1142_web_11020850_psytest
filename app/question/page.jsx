@@ -104,23 +104,19 @@ export default function QuestionPage() {
           <DayProgress currentStep={currentStep} total={questions.length} />
         </div>
 
-        {/* ═══════════════════
-            分隔線 + 情境描述
-            ═══════════════════ */}
-        <div className="h-px bg-white/30 mb-3" />
-
-        <div className="bg-white/15 backdrop-blur-sm rounded-2xl px-5 py-4 mb-4">
-          <p className={`text-center text-sm leading-7 ${tc.scenario}`}>
+        {/* ═══════════
+            情境描述（H1）
+            ═══════════ */}
+        <div className="mb-6 px-1">
+          <h2 className={`text-center text-xl font-bold leading-relaxed drop-shadow-lg ${tc.scenario}`}>
             {q.scenario}
-          </p>
+          </h2>
         </div>
-
-        <div className="h-px bg-white/30 mb-4" />
 
         {/* ════════════════
             選項按鈕（大塊）
             ════════════════ */}
-        <div className="flex flex-col gap-3 flex-1 justify-end pb-2">
+        <div className="flex flex-col w-full items-center justify-center gap-3 flex-1 pb-2">
           {q.options.map((opt) => (
             <OptionButton
               key={opt.id}

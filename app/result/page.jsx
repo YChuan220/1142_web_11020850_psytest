@@ -7,6 +7,7 @@ import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 import useQuizStore from '@/store/store';
 import { results } from '@/store/store';
+import ActionButtons from '@/components/ActionButtons';
 
 function getResult(score) {
   return (
@@ -86,37 +87,7 @@ export default function ResultPage() {
 
           {/* 按鈕（在卡片背景內） */}
           <div className="mt-2 w-full shrink-0 space-y-2">
-            <button
-              onClick={handleRetake}
-              className="
-                w-full py-3 rounded-full
-                bg-gradient-to-r from-yellow-200 to-yellow-300
-                text-yellow-800 font-semibold tracking-widest text-sm
-                border border-yellow-300 shadow-sm
-                transition-all duration-200
-                hover:scale-[1.02] hover:shadow-md hover:from-yellow-300 hover:to-yellow-400
-                active:scale-[0.98]
-                cursor-pointer
-              "
-            >
-              重新測驗
-            </button>
-
-            <button
-              onClick={handleShare}
-              className="
-                w-full py-3 rounded-full
-                bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400
-                text-white font-semibold tracking-widest text-sm
-                shadow-md
-                transition-all duration-200
-                hover:scale-[1.02] hover:shadow-lg hover:opacity-90
-                active:scale-[0.98]
-                cursor-pointer
-              "
-            >
-              分享到社群媒體
-            </button>
+            <ActionButtons onRetake={handleRetake} onShare={handleShare} />
 
             <p className="text-center text-[11px] text-gray-600/80 tracking-wide">
               長按圖片即可儲存至相簿

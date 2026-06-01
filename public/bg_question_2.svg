@@ -2,12 +2,12 @@
 <g clip-path="url(#clip0_2026_1370)">
 <rect width="393" height="852" rx="25" fill="white"/>
 <path d="M393 852H0V0H393V852Z" fill="#8EAEFF"/>
-<path d="M237 0H393V365V365C306.844 365 237 295.156 237 209V0Z" fill="url(#paint0_linear_2026_1370)"/>
+<path d="M237 0H393V365C306.844 365 237 295.156 237 209V0Z" fill="url(#paint0_linear_2026_1370)"/>
 <circle cx="156" cy="556" r="129.5" stroke="#FFF4BB"/>
-<path d="M0 487V487C86.1564 487 156 556.844 156 643V852H0V487Z" fill="url(#paint1_linear_2026_1370)"/>
+<path d="M0 487C86.1564 487 156 556.844 156 643V852H0V487Z" fill="url(#paint1_linear_2026_1370)"/>
 <circle cx="254.5" cy="250.5" r="98" stroke="#FFF4BB"/>
 <mask id="mask0_2026_1370" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="237" y="136" width="156" height="229">
-<path d="M237 136H393V365V365C306.844 365 237 295.156 237 209V136Z" fill="url(#paint2_linear_2026_1370)"/>
+<path d="M237 136H393V365C306.844 365 237 295.156 237 209V136Z" fill="url(#paint2_linear_2026_1370)"/>
 </mask>
 <g mask="url(#mask0_2026_1370)">
 <circle cx="254.5" cy="250.5" r="98.5" fill="url(#paint3_linear_2026_1370)"/>
@@ -25,9 +25,6 @@
 <line x1="82.2039" y1="510.05" x2="88.6224" y2="517.718" stroke="white" stroke-width="2"/>
 <line x1="82.1366" y1="506.743" x2="82.4527" y2="510.688" stroke="white" stroke-width="2"/>
 <rect width="393" height="852" fill="black" fill-opacity="0.21"/>
-<line x1="41" y1="52" x2="351" y2="52" stroke="white" stroke-width="2"/>
-<line x1="41" y1="285" x2="351" y2="285" stroke="white" stroke-width="2"/>
-<line x1="41" y1="798" x2="351" y2="798" stroke="white" stroke-width="2"/>
 </g>
 <defs>
 <linearGradient id="paint0_linear_2026_1370" x1="315" y1="0" x2="315" y2="365" gradientUnits="userSpaceOnUse">
