@@ -1,6 +1,6 @@
 <svg width="393" height="852" viewBox="0 0 393 852" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_2026_1437)">
-<rect width="393" height="852" rx="25" fill="white"/>
+<rect width="393" height="852" fill="white"/>
 <rect width="393" height="422" fill="url(#paint0_linear_2026_1437)"/>
 <rect y="633" width="190" height="219" fill="#B7E8FF"/>
 <rect y="422" width="190" height="211" fill="#3D3D3D"/>
@@ -94,7 +94,7 @@
 <stop offset="1" stop-color="#FFD4F0" stop-opacity="0"/>
 </linearGradient>
 <clipPath id="clip0_2026_1437">
-<rect width="393" height="852" rx="25" fill="white"/>
+<rect width="393" height="852" fill="white"/>
 </clipPath>
 </defs>
 </svg>

@@ -17,7 +17,7 @@ export default function StartButton({ onClick, label = '開始測驗' }) {
         bg-gradient-to-r from-cyan-200 to-blue-200
         text-blue-600 font-semibold text-lg tracking-widest
         border border-blue-200
-        shadow-md
+        text-center shadow-md
         transition-all duration-200
         hover:scale-105 hover:shadow-lg hover:from-cyan-300 hover:to-blue-300
         active:scale-95 active:shadow-sm

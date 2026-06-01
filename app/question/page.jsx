@@ -92,7 +92,7 @@ export default function QuestionPage() {
       />
 
       {/* ── 半透明遮罩（提升文字可讀性） ── */}
-      <div className="absolute inset-0 bg-black/25 z-[1]" />
+      <div className="absolute inset-0 bg-black/16 z-[1]" />
 
       {/* ── 內容 overlay ── */}
       <div className="relative z-10 flex flex-col h-full px-5 pt-6 pb-5">
